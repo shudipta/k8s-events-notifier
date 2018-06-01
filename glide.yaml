@@ -1,0 +1,13 @@
+package: github.com/shudipta/k8s-events-notifier
+import:
+- package: github.com/appscode/go-notify
+  subpackages:
+  - unified
+- package: k8s.io/apimachinery
+  subpackages:
+  - pkg/apis/meta/v1
+- package: k8s.io/client-go
+  subpackages:
+  - kubernetes
+  - tools/clientcmd
+  - util/homedir
